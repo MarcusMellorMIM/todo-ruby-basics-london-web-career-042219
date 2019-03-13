@@ -22,9 +22,9 @@ def return_a_value ( value="Nice" )
 end
 
 def last_evaluated_value
-
+  "expert"
 end
 
-def pizza_party
-
+def pizza_party ( topping = "cheese")
+  topping
 end
